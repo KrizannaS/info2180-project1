@@ -171,12 +171,12 @@ li :hover{
 
 .cta{
 
-   
+     margin:8%;
     background-color: #48BB78;
     float: right;
     padding: 15px;
     border-radius: 5px;
-    margin: 10%;
+    
 
    
 }
