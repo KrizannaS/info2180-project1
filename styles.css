@@ -5,7 +5,272 @@ body {
 }
 
 .container {
+   
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    font-family: -apple-system,BlinkMackSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size: 18px;
+
+   
+
+}
+
+
+/*______________________Header_______________________________*/
+
+
+.container > div.h1,div.nav{
+
+    display: grid;
+    justify-content: space-between;
+    background-color: white;
+    font size:18px;
+
+}
+
+
+h1{
+    display: inline-block;
+    float:left;
+    padding-right: 50px;
+   
+}
+
+ul{
+    display: inline-block;
+   
+   
+}
+
+li{ display: inline-block;
+     padding: 20px;
+     }
+
+ul :hover{
+    color:#5A67D8;
+}
+
+li :hover{
+
+    color: #6b7280;
+}
+
+/*________________________Overview________________________*/
+
+
+.overview-hero{
+
+    display: grid;
+    background-color: #E2E8F0;
+    margin-left:10em;
+    margin-right:15em;
+}
+
+.overview-hero-image img {
+    float: left;
+    padding-right: 100px;
+   
+   
+   
+   
+}
+
+.overview-hero-text {
+    width:100%;
+
+    text-align: left;
+
+   
+   
+}
+
+
+
+/*________________________Learn About________________________*/
+
+.learn-about{
+    display: grid;
+    margin: 2em;
+    margin-left:10em;
+    margin-right:15em;
+
+
+   
+
+}
+
+
+.card {
+   
+   
+    box-shadow: 0 0 5px 5px #E2E8F0;
+    float: left;
+    width:25%;
+    padding: 20px;
+    margin:15px;
+    height: 450px;
+   
+}
+
+.cards:after{
+    
+    display: inline-block;
+    content: "";
+    display: table;
+   
+    clear:both;
+
+}
+
+.learn-about h2{
+ font-size: 24px;
+ color: #48BB78;
+}
+
+.card h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+/*_______________________________TEST_______________________*/
+
+
+.testing{
+    display:grid;
+    background-color: #4A5568;
+    color:white;
+    margin: 2em;
+    padding: 5em;
+    margin-left:10em;
+    margin-right:15em;
+   
+
+
+}
+
+.testing a{
+    color: white;
+
+}
+
+.testing-desciption{
+   
+    width: 65%;
+    float: left;
+   
+   
+   
+}
+
+.cta{
+
+   
+    background-color: #48BB78;
+    float: right;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10%;
+
+   
+}
+
+/*_______________________________Recent Stories____________________________*/
+
+
+.stories{
+
+    display: grid;
+    margin: 2em;
+    margin-left:10em;
+    margin-right:15em;
+   
+}
+
+.stories h2 ,a{
+    color:#5A67D8;
+}
+
+.stories img{
+   
+   
+    border-radius: 50%;
+    float: left;
+    padding: 30px;
+
+   
+
+}
+
+
+.article-body:after{
+
+    display: inline-block;
+    content: "";
+    display: table;
+    clear:both;
+
+}
+/*________________________________NEWSLETTER___________________________*/
+
+
+.newsletter{
+     display: grid;
+     text-align: center;
+     background-color: #48BB78;
+     padding: 5em;
+     color: white;
+     margin-left:10em;
+     margin-right:15em;
+
+}
+
+
+
+
+form{
+    display:flex;
+    text-align: center;
+    padding-left: 30%;
+    font-family: white;
+
+   
+
+}
+
+form >div.email,div.btn{
+     display: inline-block;
+   }
+
+ form input{
+    padding: 20px;
+
+ }
+
+
+form .btn{
+     margin-left:10px;
+     padding-left: 30px;
+     padding-right: 30px;
+    border-radius: 5px;
+    background-color: #4A5568;
+    color: white;
+
+   
+}
+
+
+/*________________________________FOOTER___________________________*/
+
+footer{
+    background-color: #4A5568;
+    padding: 2em;
+    margin-left:10em;
+    margin-right:15em;
 }
